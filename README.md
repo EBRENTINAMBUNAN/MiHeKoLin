@@ -1,33 +1,55 @@
-# Mihekolin
+# Mihekolin Linux
 
-Mihekolin adalah singkatan dari `Micro Helper Kotlin Linux`, yaitu alat bantu kecil untuk pengembangan aplikasi Android berbasis Kotlin di Linux tanpa bergantung pada Android Studio.
+Mihekolin adalah alat bantu command line untuk membuat proyek Android Kotlin dari Linux tanpa bergantung pada Android Studio.
 
-## Ambil Source
+## Isi Paket
 
-Clone repositori ini terlebih dulu:
+- `mihekolin-installer` - binary installer utama
+- `install.sh` - helper script agar instalasi lebih mudah
+- `README.md` - panduan penggunaan paket ini
+
+## Install Cepat
+
+Jika Anda membuka folder ini dari file manager, jalankan `install.sh` dengan opsi "Run in Terminal" bila tersedia. Jika dari terminal, jalankan:
 
 ```bash
-git clone https://github.com/EBRENTINAMBUNAN/MiHeKoLin.git
-cd MiHeKoLin
+chmod +x install.sh
+./install.sh
 ```
 
-## Daftar Perintah Setelah Install
+Jika command belum langsung dikenali di terminal yang sama:
+
+```bash
+source ~/.bashrc
+```
+
+## Verifikasi
+
+Setelah instalasi selesai, cek dengan:
 
 ```bash
 mihekolin
+mihekolin --help
+```
+
+## Perintah Dasar
+
+```bash
 mihekolin doctor
-mihekolin doctor java gradle sdk
 mihekolin new NamaAplikasi
-mihekolin new NamaAplikasi com.namaaplikasi.app
-cd NamaAplikasi && mihekolin run build
 ```
 
-Default package:
+## Install Manual
 
-```text
-com.namaaplikasi.app
+Jika tidak ingin memakai script helper:
+
+```bash
+chmod +x mihekolin-installer
+./mihekolin-installer
 ```
 
-## License
+## Catatan
 
-Proyek ini menggunakan lisensi MIT. Detail lisensi tersedia di file `LICENSE`.
+- Paket ini ditujukan untuk Linux.
+- Binary command `mihekolin` sudah tertanam di dalam `mihekolin-installer`.
+- Gunakan rilis yang sesuai dengan arsitektur Linux Anda.

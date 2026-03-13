@@ -14,8 +14,11 @@ chmod +x "$INSTALLER"
 "$INSTALLER"
 
 echo
+echo "Instalasi selesai."
+echo
 echo "Jika command belum dikenali di terminal saat ini, jalankan:"
 echo "  source ~/.bashrc"
 echo
 echo "Lalu cek dengan:"
 echo "  mihekolin"
+echo "  mihekolin --help"
