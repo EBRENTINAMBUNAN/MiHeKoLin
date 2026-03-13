@@ -2,13 +2,6 @@
 
 Mihekolin adalah singkatan dari `Micro Helper Kotlin Linux`, yaitu alat bantu kecil untuk pengembangan aplikasi Android berbasis Kotlin di Linux tanpa bergantung pada Android Studio.
 
-Source native per platform:
-
-```text
-src/Linux/
-src/Windows/
-```
-
 ## Ambil Source
 
 Sebelum build atau compile, clone repositori ini terlebih dulu:
