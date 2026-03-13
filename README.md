@@ -2,6 +2,15 @@
 
 Mihekolin adalah alat bantu command line untuk membuat proyek Android Kotlin dari Linux tanpa bergantung pada Android Studio.
 
+## Ambil Paket
+
+Clone repositori ini terlebih dulu:
+
+```bash
+git clone https://github.com/EBRENTINAMBUNAN/MiHeKoLin.git
+cd MiHeKoLin/build/release/linux
+```
+
 ## Isi Paket
 
 - `mihekolin-installer` - binary installer utama
