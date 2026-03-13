@@ -1,6 +1,6 @@
 # Mihekolin
 
-Mihekolin adalah singkatan dari `Micro Helper Kotlin Linux`, yaitu alat bantu kecil untuk pengembangan aplikasi Android berbasis Kotlin di Linux tanpa bergantung pada Android Studio. Pada struktur ini, `src/Linux/mihekolin` sudah menjadi source binary penuh untuk command `mihekolin`, lalu `src/Linux/main.cpp` meng-embed binary tersebut ke installer C++. Pengguna akhir cukup menerima binary installer dari folder `build` atau paket `release`, lalu menjalankannya tanpa perlu mengubah source.
+Mihekolin adalah singkatan dari `Micro Helper Kotlin Linux`, yaitu alat bantu kecil untuk pengembangan aplikasi Android berbasis Kotlin di Linux tanpa bergantung pada Android Studio.
 
 Source native per platform:
 
